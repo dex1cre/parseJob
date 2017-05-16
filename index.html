@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>micro-time</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+form {
+  margin: 0 auto;
+  min-width: 200px;
+  width: 500px;
+}
+
+.jobs {
+  margin-top: 20px;
+}
+
+.jobs > li {
+  display: block;
+}
+
+.tags > li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.tags > li:first-child {
+  margin-left: 0;
+}
+    </style>
+  </head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <form method="post" action="/" class="center">
+          <h3>Поиск по заданию</h3>
+          <div class="form-group">
+            <input type="text" name="input_text" id="input_text" class="form-control" placeholder="Предлагаю вам сюда что-нибудь написать" required>
+          </div>
+          <button class="btn">Найти</button>
+        </form>
+
+        <ul class="jobs">
+          <li>
+            <h4>Название лялялялляляля ялля ялля</h4>
+            <ul class="tags">
+              <li>hello</li>
+              <li>bye</li>
+              <li>sldkfjl</li>
+            </ul>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="#" class="btn btn-primary">Перейти к заказу</a>
+          </li>
+          <hr />
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
